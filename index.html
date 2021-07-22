@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Visualing Music in GeoGebra</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>var bleOn = 0;</script>
+    <script src="https://compasstech.com.au/qrcodejs/jquery.min.js"></script>
+    <script src="https://compasstech.com.au/qrcodejs/qrcode.js"></script>
+    <script src="https://compasstech.com.au/webble/js/BluetoothTerminal.js"></script>
+    <script src="https://compasstech.com.au/webble/js/main.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script> var matID = "rsen6vj7"; var perspective = "SG"</script>
+    <script src="https://cdn.geogebra.org/apps/deployggb.js"></script>
+    <script src="https://compasstech.com.au/ggb/ggb.js"></script>
+    <script src="play.js"></script>
+    <script src="https://compasstech.com.au/piano/circlepiano.js"></script>
+    <script src="https://npmcdn.com/vexflow@1.2.88/releases/vexflow-debug.js"></script>
+    <style> body { font-family: Helvetica, Arial, Sans-Serif; }</style>
+</head>
+
+<body onload="setupPiano();">
+  <h1>Visualing Music in GeoGebra</h1>
+  <p>Click on a song button, then scroll down to the bottom of this page. Notice how <a href=https://www.geogebra.org >GeoGebra</a> plots the frequencies of notes in the musicial score.</p>
+  <div id="intro" style = "display: none;"></div>
+  <div id="act" style = "display: none;"></div>
+  <div id="song" style = "display: block;"></div>
+  <div id="piano" style="display: none;"><svg id="piano-element" width="900" height="900"></svg></div>
+  <div id="maths" style = "display: block;"></div>
+  <div id="share" style = "display: none;"></div>
+  <div id="ble" style = "display: none;"></div>
+  <p>Adapted from: 
+    <ul>
+      <li><a href=https://compasstech.com.au >Compass Technology</a>, Stephen Arnold</li>
+      <li><a href=https://bl.ocks.org/mbostock >ArcPiano</a>, Mike Bostock</li>
+      <li><a href=https://github.com/bit101/tones >Tones library</a>, Keith Peters</li>
+      <li><a href=https://vexflow.com>Vexflow</a >, oxfe</li>
+      <li><a href=https://www.geogebra.org >GeoGebra</a></li>
+    </ul>
+  </p>
+</body>
+
+</html>

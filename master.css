@@ -1,0 +1,85 @@
+
+body {
+	font-family: 'Segoe UI', 'Lucida Grande', 'Bitstream Vera Sans', sans-serif;
+	font-size: 21px;
+	background-image: url(https://compasstech.com.au/compass.gif);
+	background-repeat: no-repeat;
+	background-position: 120% -120px;
+	background-color: rgb(240,240,250);
+	margin-top: 4em;
+}
+
+#Header h3, #Header h1 {
+	margin: 0;
+}
+
+div#PersonalDetails,
+div#Order {
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+#OrderForm table tr th,
+#OrderForm table tr td {
+	vertical-align: top;
+	white-space: nowrap;
+	padding-right: 1em;
+}
+
+table#OrderTable {
+	background-color: white;
+	border-collapse: collapse;
+}
+
+table#OrderTable tr th {
+	text-align: left;
+	padding-right: 1em;
+	border-bottom: 1px solid #ccc;
+}
+
+table#OrderTable tr td {
+	vertical-align: bottom !important;
+	padding: 1em;
+	border-bottom: 1px solid #eee;
+}
+
+table#OrderTable tr td#TotalAll,
+table#OrderTable tr td#TotalAllCell {
+	text-align: right;
+}
+
+table#OrderTable select {
+	width: 16em;
+}
+
+#HeaderBar {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: black;
+	color: #eee;
+	padding: 0.4em 0.8em 0.4em 0.8em;
+	font-size: 12px;
+	font-family: 'Segoe UI', 'Lucida Grande', 'Bitstream Vera Sans', sans-serif;
+	letter-spacing: 0.2em;
+}
+
+#HeaderBar strong {
+	font-size: 120%;
+}
+
+#HeaderBar a {
+	padding-bottom: 0;
+	margin-bottom: 0;
+	color: white;
+	text-decoration: none;
+	border-bottom: 1px dotted #999;
+}
+
+#HeaderBar a:hover {
+	border-bottom-color: white;
+}

@@ -1,0 +1,31 @@
+
+			 .key {
+			   stroke-width: 1.5px;
+			   transition: fill 250ms linear, stroke 250ms linear;
+			   transition-delay: 150ms;
+			 }
+			 .key:hover {
+			   transition-delay: 0;
+			 }
+			 .key--white { fill: #fff; stroke: #777; }
+			 .key--black { fill: #333; stroke: #000; }
+			 .key--white:hover { fill: cyan; stroke: #00999b; }
+			 .key--black:hover { fill: magenta; stroke: #910099; }
+			 			}
+
+
+			    #editor { 
+			        margin: 0;
+			        position: relative;
+			        top: 0;
+			        bottom: 0;
+			        left: 50;
+			        right: 0;
+			    }
+
+			 H1 {color:red;}
+			 H2 {color:red;}
+			 H3 {color:red;}
+			 H4 {color:red;}
+			 P {color:black; font-size:18px}
+			 ul {color:green;}
